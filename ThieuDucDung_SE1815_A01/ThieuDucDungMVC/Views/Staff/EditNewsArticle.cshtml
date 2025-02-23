@@ -1,0 +1,71 @@
+﻿@model NewsArticle
+@{
+    ViewData["Title"] = "Edit News Article";
+}
+
+<h2>Edit News Article</h2>
+
+<form asp-action="EditNewsArticle" method="post">
+    <!-- ID (Không thể chỉnh sửa) -->
+    <div class="form-group">
+        <label>News Article ID</label>
+        <input type="text" class="form-control" value="@Model.NewsArticleId" readonly />
+        <input type="hidden" name="NewsArticleId" value="@Model.NewsArticleId" />
+    </div>
+
+    <!-- Title -->
+    <div class="form-group">
+        <label>Title</label>
+        <input type="text" name="NewsTitle" class="form-control" value="@Model.NewsTitle" required />
+    </div>
+
+    <!-- Headline -->
+    <div class="form-group">
+        <label>Headline</label>
+        <input type="text" name="Headline" class="form-control" value="@Model.Headline" required />
+    </div>
+
+    <!-- News Content -->
+    <div class="form-group">
+        <label>News Content</label>
+        <textarea name="NewsContent" class="form-control" rows="4" required>@Model.NewsContent</textarea>
+    </div>
+
+    <!-- News Source -->
+    <div class="form-group">
+        <label>News Source</label>
+        <input type="text" name="NewsSource" class="form-control" value="@Model.NewsSource" />
+    </div>
+
+    <!-- Category -->
+    <!-- Category -->
+    <div class="form-group">
+        <label>Category</label>
+        <select name="CategoryId" class="form-control" required>
+            @foreach (var category in ViewBag.Categories)
+            {
+                var isSelected = Model.CategoryId == category.CategoryId ? "selected" : "";
+                <option value="@category.CategoryId" selected="@isSelected">@category.CategoryName</option>
+            }
+        </select>
+    </div>
+
+
+    <!-- Updated By -->
+    <div class="form-group">
+        <label>Updated By</label>
+        <select name="UpdatedById" class="form-control">
+            <option value="">-- Select User (Optional) --</option>
+            @foreach (var user in ViewBag.SystemAccounts)
+            {
+                var isSelected = Model.UpdatedById == user.AccountId ? "selected" : "";
+                <option value="@user.AccountId" selected="@isSelected">@user.AccountName</option>
+            }
+        </select>
+    </div>
+
+
+    <!-- Submit -->
+    <button type="submit" class="btn btn-primary mt-3">Save Changes</button>
+    <a class="btn btn-secondary mt-3" href="@Url.Action("ManageNewsArticle", "Staff")">Back</a>
+</form>

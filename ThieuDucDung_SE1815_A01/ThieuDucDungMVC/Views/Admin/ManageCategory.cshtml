@@ -1,0 +1,69 @@
+﻿@model IEnumerable<ThieuDucDungMVC.Models.Category>
+
+@{
+    ViewData["Title"] = "Manage Categories";
+}
+
+<h2>Manage Categories</h2>
+
+<!-- 🔥 Hiển thị thông báo nếu có, tự ẩn sau 5 giây -->
+@if (TempData["SuccessMessage"] != null)
+{
+    <div id="alertMessage" class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div id="alertMessage" class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Category Name</th>
+            <th>Description</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var category in Model)
+        {
+            <tr>
+                <td>@category.CategoryName</td>
+                <td>@category.CategoryDesciption</td>
+                <td>@(category.IsActive == true ? "Active" : "Inactive")</td>
+                <td>
+                    <form method="post" asp-action="UpdateCategoryStatus">
+                        <input type="hidden" name="categoryId" value="@category.CategoryId" />
+                        <button type="submit" class="btn btn-success" name="isActive" value="true"
+                        @(category.IsActive == true ? "disabled" : "")>
+                            Accept
+                        </button>
+
+                        <button type="submit" class="btn btn-secondary" name="isActive" value="false"
+                        @(category.IsActive == false ? "disabled" : "")>
+                            Disable
+                        </button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- 🔥 Script tự ẩn thông báo sau 5 giây -->
+@section Scripts {
+    <script>
+        setTimeout(function () {
+            var alertMessage = document.getElementById("alertMessage");
+            if (alertMessage) {
+                alertMessage.style.transition = "opacity 1s ease-out";
+                alertMessage.style.opacity = "0";
+                setTimeout(function () {
+                    alertMessage.style.display = "none";
+                }, 1000);
+            }
+        }, 5000);
+    </script>
+}

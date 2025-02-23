@@ -1,0 +1,39 @@
+﻿@model IEnumerable<dynamic>
+
+@{
+    ViewData["Title"] = "Home - Latest News";
+}
+
+<h2>Latest News</h2>
+
+<table class="table table-bordered mt-3">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Headline</th>
+            <th>Category</th>
+            <th>Created Date</th>
+            <th>Created By</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var article in Model)
+        {
+            <tr>
+                <td>
+                    <a asp-controller="Home" asp-action="ViewNews" asp-route-id="@article.NewsArticleId">
+                        @article.NewsTitle
+                    </a>
+                </td>
+                <td>@article.Headline</td>
+                <td>@article.CategoryName</td>
+                <td>@article.CreatedDate?.ToString("yyyy-MM-dd")</td>
+                <td>@article.CreatedByName</td>
+                <td>
+                    <a class="btn btn-info" asp-controller="Home" asp-action="ViewNews" asp-route-id="@article.NewsArticleId">View</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,78 @@
+﻿@model IEnumerable<dynamic>
+
+@{
+    ViewData["Title"] = "Manage News Articles";
+}
+
+<h2>Manage News Articles</h2>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div id="alertMessage" class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+@if (TempData["ErrorMessage"] != null)
+{
+    <div id="alertMessage" class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+
+<!-- ✅ Nút "Create New" -->
+<a class="btn btn-success mt-3 mb-3" asp-controller="Staff" asp-action="CreateNewsArticle">+ Create New</a>
+
+<form method="get">
+    <input type="text" name="search" placeholder="Search News..." class="form-control w-50 d-inline">
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+
+<table class="table table-bordered mt-3">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Headline</th>
+            <th>Category</th>
+            <th>Created By</th>
+            <th>Updated By</th>
+            <th>Modified Date</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var article in Model)
+        {
+            <tr>
+                <td>@article.NewsTitle</td>
+                <td>@article.Headline</td>
+                <td>@article.CategoryName</td>
+                <td>@article.CreatedByName</td>
+                <td>@article.UpdatedByName</td>
+                <td>@article.ModifiedDate?.ToString("yyyy-MM-dd")</td>
+                <td>@(article.NewsStatus == true ? "Approved" : "Pending")</td>
+                <td>
+                    <!-- 🟢 View -->
+                    <a class="btn btn-info" asp-controller="Staff" asp-action="ViewNewsArticle" asp-route-id="@article.NewsArticleId">View</a>
+
+                    <!-- 🟡 Edit -->
+                    <a class="btn btn-warning" asp-controller="Staff" asp-action="EditNewsArticle" asp-route-id="@article.NewsArticleId">Edit</a>
+
+                    <!-- 🔴 Delete với xác nhận -->
+                    <form asp-controller="Staff" asp-action="DeleteNewsArticle" asp-route-id="@article.NewsArticleId" method="post" class="d-inline">
+                        <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this news article?');">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>
+
+<script>
+    setTimeout(function () {
+        var alertBox = document.getElementById('alertMessage');
+        if (alertBox) {
+            alertBox.style.transition = "opacity 0.5s ease-out";
+            alertBox.style.opacity = "0";
+            setTimeout(() => alertBox.style.display = "none", 500);
+        }
+    }, 5000); // 5000ms = 5 giây
+</script>
+

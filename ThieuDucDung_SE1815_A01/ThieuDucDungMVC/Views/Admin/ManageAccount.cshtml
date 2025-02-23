@@ -1,0 +1,66 @@
+﻿@model IEnumerable<ThieuDucDungMVC.Models.SystemAccount>
+
+@{
+    ViewData["Title"] = "Manage Accounts";
+}
+
+<h2>Manage Accounts</h2>
+
+<!-- 🔥 Hiển thị thông báo nếu có, tự ẩn sau 5 giây -->
+@if (TempData["SuccessMessage"] != null)
+{
+    <div id="alertMessage" class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div id="alertMessage" class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+
+<!-- Tìm kiếm tài khoản -->
+<form method="get">
+    <input type="text" name="search" placeholder="Search by name or email" class="form-control w-50 d-inline" />
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+
+<br />
+
+<!-- Nút thêm tài khoản -->
+<a asp-action="Create" class="btn btn-success">+ Add New Account</a>
+
+<table class="table table-bordered mt-3">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Role</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var account in Model)
+        {
+            <tr>
+                <td>@account.AccountName</td>
+                <td>@account.AccountEmail</td>
+                <td>@(account.AccountRole == 1 ? "Staff" : account.AccountRole == 2 ? "Lecturer" : "Admin")</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@account.AccountId" class="btn btn-warning">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@account.AccountId" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- 🔥 Script tự ẩn thông báo sau 5 giây -->
+@section Scripts {
+    <script>
+        setTimeout(function () {
+            var alertMessage = document.getElementById("alertMessage");
+            if (alertMessage) {
+                alertMessage.style.display = "none";
+            }
+        }, 5000);
+    </script>
+}

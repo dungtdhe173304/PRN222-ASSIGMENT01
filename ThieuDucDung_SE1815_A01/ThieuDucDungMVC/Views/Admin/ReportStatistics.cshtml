@@ -1,0 +1,44 @@
+﻿@model IEnumerable<ThieuDucDungMVC.Models.NewsArticle>
+
+@{
+    ViewData["Title"] = "Report Statistics";
+}
+
+<h2>Report Statistics</h2>
+
+<!-- Form chọn khoảng thời gian -->
+<form method="get">
+    <label>Start Date:</label>
+    <input type="date" name="startDate" class="form-control w-25 d-inline" />
+
+    <label>End Date:</label>
+    <input type="date" name="endDate" class="form-control w-25 d-inline" />
+
+    <button type="submit" class="btn btn-primary">Filter</button>
+</form>
+
+<br />
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Created Date</th>
+            <th>Category</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var article in Model)
+        {
+            <tr>
+                <td>@article.NewsTitle</td>
+                <td>@article.CreatedDate?.ToString("yyyy-MM-dd")</td>
+                <td>@(article.Category != null ? article.Category.CategoryName : "N/A")</td>
+                <td>
+                    @(article.NewsStatus == true ? "Published" : "Pending")
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

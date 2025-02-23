@@ -1,0 +1,21 @@
+﻿@model dynamic
+
+@{
+    ViewData["Title"] = "View News";
+}
+
+<h2>View News</h2>
+
+<table class="table table-bordered">
+    <tr><th>News Title</th><td>@Model.NewsTitle</td></tr>
+    <tr><th>Headline</th><td>@Model.Headline</td></tr>
+    <tr><th>Created Date</th><td>@Model.CreatedDate?.ToString("yyyy-MM-dd")</td></tr>
+    <tr><th>News Content</th><td>@Model.NewsContent</td></tr>
+    <tr><th>News Source</th><td>@Model.NewsSource</td></tr>
+    <tr><th>Category</th><td>@Model.CategoryName</td></tr>
+    <tr><th>Created By</th><td>@Model.CreatedByName</td></tr>
+    <tr><th>Updated By</th><td>@Model.UpdatedByName</td></tr>
+    <tr><th>Modified Date</th><td>@Model.ModifiedDate?.ToString("yyyy-MM-dd")</td></tr>
+</table>
+
+<a asp-action="ManageNews" class="btn btn-secondary">Back to List</a>

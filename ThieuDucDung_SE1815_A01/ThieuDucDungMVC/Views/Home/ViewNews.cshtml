@@ -1,0 +1,24 @@
+﻿@model ThieuDucDungMVC.Models.NewsArticle
+
+@{
+    ViewData["Title"] = "News Details";
+}
+
+<h2>@Model.NewsTitle</h2>
+<h5>@Model.Headline</h5>
+
+<p><strong>Category:</strong> @Model.Category.CategoryName</p>
+<p><strong>Created By:</strong> @Model.CreatedBy.AccountName</p>
+<p><strong>Created Date:</strong> @Model.CreatedDate?.ToString("yyyy-MM-dd")</p>
+<p><strong>Modified Date:</strong> @Model.ModifiedDate?.ToString("yyyy-MM-dd")</p>
+
+<hr>
+
+<p>@Model.NewsContent</p>
+
+@if (!string.IsNullOrEmpty(Model.NewsSource))
+{
+    <p><strong>Source:</strong> @Model.NewsSource</p>
+}
+
+<a class="btn btn-secondary" asp-controller="Home" asp-action="Index">Back to Home</a>

@@ -1,0 +1,48 @@
+﻿@model IEnumerable<dynamic>
+
+@{
+    ViewData["Title"] = "News History";
+}
+
+<h2>News History</h2>
+
+@if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+{
+    <div class="alert alert-danger text-center">
+        @ViewBag.ErrorMessage
+    </div>
+}
+
+<table class="table table-bordered mt-3">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Headline</th>
+            <th>Category</th>
+            <th>Created Date</th>
+            <th>Modified Date</th>
+            <th>Created By</th>
+            <th>Updated By</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var article in Model)
+        {
+            <tr>
+                <td>@article.NewsTitle</td>
+                <td>@article.Headline</td>
+                <td>@article.CategoryName</td>
+                <td>@article.CreatedDate?.ToString("yyyy-MM-dd")</td>
+                <td>@article.ModifiedDate?.ToString("yyyy-MM-dd")</td>
+                <td>@article.CreatedByName</td>
+                <td>@article.UpdatedByName</td>
+                <td>@(article.NewsStatus == true ? "Approved" : "Pending")</td>
+                <td>
+                    <a class="btn btn-info" asp-controller="Staff" asp-action="ViewNewsArticle" asp-route-id="@article.NewsArticleId">View</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

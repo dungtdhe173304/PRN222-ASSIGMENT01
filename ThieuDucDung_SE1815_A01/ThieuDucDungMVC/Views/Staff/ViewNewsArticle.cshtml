@@ -1,0 +1,52 @@
+﻿@model ThieuDucDungMVC.Models.NewsArticle
+
+@{
+    ViewData["Title"] = "View News Article";
+}
+
+<h2>View News Article</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Title</th>
+        <td>@Model.NewsTitle</td>
+    </tr>
+    <tr>
+        <th>Headline</th>
+        <td>@Model.Headline</td>
+    </tr>
+    <tr>
+        <th>Created Date</th>
+        <td>@Model.CreatedDate?.ToString("yyyy-MM-dd")</td>
+    </tr>
+    <tr>
+        <th>News Content</th>
+        <td>@Model.NewsContent</td>
+    </tr>
+    <tr>
+        <th>News Source</th>
+        <td>@Model.NewsSource</td>
+    </tr>
+    <tr>
+        <th>Category</th>
+        <td>@(Model.Category != null ? Model.Category.CategoryName : "N/A")</td>
+    </tr>
+    <tr>
+        <th>Created By</th>
+        <td>@(Model.CreatedBy != null ? Model.CreatedBy.AccountName : "N/A")</td>
+    </tr>
+    <tr>
+        <th>Updated By</th>
+        <td>@ViewBag.UpdatedByName</td>
+    </tr>
+    <tr>
+        <th>Modified Date</th>
+        <td>@Model.ModifiedDate?.ToString("yyyy-MM-dd")</td>
+    </tr>
+    <tr>
+        <th>Status</th>
+        <td>@(Model.NewsStatus == true ? "Approved" : "Pending")</td>
+    </tr>
+</table>
+
+<a class="btn btn-secondary" asp-action="ManageNewsArticle">Back</a>

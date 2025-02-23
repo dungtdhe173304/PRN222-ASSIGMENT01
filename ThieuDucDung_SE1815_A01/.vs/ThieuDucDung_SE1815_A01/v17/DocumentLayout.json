@@ -1,0 +1,763 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|d:\\spring2025-ki7\\prn222\\assignments\\assignment01\\thieuducdung_se1815_a01\\thieuducdungmvc\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|d:\\spring2025-ki7\\prn222\\assignments\\assignment01\\thieuducdung_se1815_a01\\thieuducdungmvc\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\services\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\services\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|d:\\spring2025-ki7\\prn222\\assignments\\assignment01\\thieuducdung_se1815_a01\\thieuducdungmvc\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\views\\home\\viewnews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\views\\home\\viewnews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\views\\staff\\viewnewshistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\views\\staff\\viewnewshistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\views\\staff\\viewnewsarticle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\views\\staff\\viewnewsarticle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\views\\staff\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\views\\staff\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\controllers\\lecturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\controllers\\lecturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\models\\newsarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\models\\newsarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\models\\funewsmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\models\\funewsmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\views\\staff\\createnewsarticle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\views\\staff\\createnewsarticle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\views\\staff\\managenewsarticle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\views\\staff\\managenewsarticle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\views\\staff\\managecategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\views\\staff\\managecategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\views\\staff\\editnewsarticle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\views\\staff\\editnewsarticle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\views\\staff\\deletenewsarticle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\views\\staff\\deletenewsarticle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\views\\admin\\managenews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\views\\admin\\managenews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\views\\admin\\viewnews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\views\\admin\\viewnews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\views\\admin\\managecategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\views\\admin\\managecategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\views\\admin\\reportstatistics.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\views\\admin\\reportstatistics.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\views\\admin\\manageaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\views\\admin\\manageaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\views\\admin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\views\\admin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\thieuducdungmvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{907AEFFF-413B-4DCC-B9F9-0FD3DCD0F64D}|ThieuDucDungMVC\\ThieuDucDungMVC.csproj|solutionrelative:thieuducdungmvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StaffController.cs",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Controllers\\StaffController.cs",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Controllers\\StaffController.cs",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Controllers\\StaffController.cs",
+              "RelativeToolTip": "ThieuDucDungMVC\\Controllers\\StaffController.cs",
+              "ViewState": "AQIAAMcAAAAAAAAAAAAcwMUAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T18:09:50.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Services\\IEmailService.cs",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Services\\IEmailService.cs",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Services\\IEmailService.cs",
+              "RelativeToolTip": "ThieuDucDungMVC\\Services\\IEmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:38:59.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Services\\AccountService.cs",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Services\\AccountService.cs",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Services\\AccountService.cs",
+              "RelativeToolTip": "ThieuDucDungMVC\\Services\\AccountService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T18:07:32.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAccountService.cs",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Services\\IAccountService.cs",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Services\\IAccountService.cs",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Services\\IAccountService.cs",
+              "RelativeToolTip": "ThieuDucDungMVC\\Services\\IAccountService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T18:07:09.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ThieuDucDungMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAmwGEAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T18:10:28.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Program.cs",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Program.cs",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Program.cs",
+              "RelativeToolTip": "ThieuDucDungMVC\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T18:03:16.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\appsettings.json",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\appsettings.json",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\appsettings.json",
+              "RelativeToolTip": "ThieuDucDungMVC\\appsettings.json",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAYwBMAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-20T17:56:44.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Services\\EmailService.cs",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Services\\EmailService.cs",
+              "RelativeToolTip": "ThieuDucDungMVC\\Services\\EmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAswCQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:39:23.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "ThieuDucDungMVC\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T08:50:03.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Services\\IAuthService.cs",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Services\\IAuthService.cs",
+              "RelativeToolTip": "ThieuDucDungMVC\\Services\\IAuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T23:17:47.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Services\\AuthService.cs",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Services\\AuthService.cs",
+              "RelativeToolTip": "ThieuDucDungMVC\\Services\\AuthService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T23:18:05.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Models\\Category.cs",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Models\\Category.cs",
+              "RelativeToolTip": "ThieuDucDungMVC\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T18:05:04.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "ThieuDucDungMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T08:50:02.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Models\\LoginViewModel.cs",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "ThieuDucDungMVC\\Models\\LoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T18:17:59.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ViewNews.cshtml",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Home\\ViewNews.cshtml",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Views\\Home\\ViewNews.cshtml",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Home\\ViewNews.cshtml",
+              "RelativeToolTip": "ThieuDucDungMVC\\Views\\Home\\ViewNews.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T08:21:40.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ThieuDucDungMVC\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T23:43:31.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ThieuDucDungMVC\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAA1wCQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T18:08:09.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Staff\\Profile.cshtml",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Views\\Staff\\Profile.cshtml",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Staff\\Profile.cshtml",
+              "RelativeToolTip": "ThieuDucDungMVC\\Views\\Staff\\Profile.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAEgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T22:47:05.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ViewNewsArticle.cshtml",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Staff\\ViewNewsArticle.cshtml",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Views\\Staff\\ViewNewsArticle.cshtml",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Staff\\ViewNewsArticle.cshtml",
+              "RelativeToolTip": "ThieuDucDungMVC\\Views\\Staff\\ViewNewsArticle.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAkwCYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T21:02:50.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ThieuDucDungMVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T18:14:22.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ViewNewsHistory.cshtml",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Staff\\ViewNewsHistory.cshtml",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Views\\Staff\\ViewNewsHistory.cshtml",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Staff\\ViewNewsHistory.cshtml",
+              "RelativeToolTip": "ThieuDucDungMVC\\Views\\Staff\\ViewNewsHistory.cshtml",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAkwDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T23:54:22.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LecturerController.cs",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Controllers\\LecturerController.cs",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Controllers\\LecturerController.cs",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Controllers\\LecturerController.cs",
+              "RelativeToolTip": "ThieuDucDungMVC\\Controllers\\LecturerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T18:10:20.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "NewsArticle.cs",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Models\\NewsArticle.cs",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Models\\NewsArticle.cs",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Models\\NewsArticle.cs",
+              "RelativeToolTip": "ThieuDucDungMVC\\Models\\NewsArticle.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T21:42:46.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "FunewsManagementContext.cs",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Models\\FunewsManagementContext.cs",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Models\\FunewsManagementContext.cs",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Models\\FunewsManagementContext.cs",
+              "RelativeToolTip": "ThieuDucDungMVC\\Models\\FunewsManagementContext.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAowBoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T18:05:18.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "ThieuDucDungMVC\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAANwAAAAAAAAAAAAowPgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T18:09:29.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CreateNewsArticle.cshtml",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Staff\\CreateNewsArticle.cshtml",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Views\\Staff\\CreateNewsArticle.cshtml",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Staff\\CreateNewsArticle.cshtml",
+              "RelativeToolTip": "ThieuDucDungMVC\\Views\\Staff\\CreateNewsArticle.cshtml",
+              "ViewState": "AQIAACAAAAAAAAAAAAAkwEoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T21:06:55.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ManageNewsArticle.cshtml",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Staff\\ManageNewsArticle.cshtml",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Views\\Staff\\ManageNewsArticle.cshtml",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Staff\\ManageNewsArticle.cshtml",
+              "RelativeToolTip": "ThieuDucDungMVC\\Views\\Staff\\ManageNewsArticle.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T20:46:26.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ManageCategory.cshtml",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Staff\\ManageCategory.cshtml",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Views\\Staff\\ManageCategory.cshtml",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Staff\\ManageCategory.cshtml",
+              "RelativeToolTip": "ThieuDucDungMVC\\Views\\Staff\\ManageCategory.cshtml",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAkwHQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T20:27:41.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DeleteNewsArticle.cshtml",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Staff\\DeleteNewsArticle.cshtml",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Views\\Staff\\DeleteNewsArticle.cshtml",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Staff\\DeleteNewsArticle.cshtml",
+              "RelativeToolTip": "ThieuDucDungMVC\\Views\\Staff\\DeleteNewsArticle.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T21:58:33.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "EditNewsArticle.cshtml",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Staff\\EditNewsArticle.cshtml",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Views\\Staff\\EditNewsArticle.cshtml",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Staff\\EditNewsArticle.cshtml",
+              "RelativeToolTip": "ThieuDucDungMVC\\Views\\Staff\\EditNewsArticle.cshtml",
+              "ViewState": "AQIAACMAAAAAAAAAAAAawDsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T21:57:45.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ViewNews.cshtml",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Admin\\ViewNews.cshtml",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Views\\Admin\\ViewNews.cshtml",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Admin\\ViewNews.cshtml",
+              "RelativeToolTip": "ThieuDucDungMVC\\Views\\Admin\\ViewNews.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T19:55:04.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ManageNews.cshtml",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Admin\\ManageNews.cshtml",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Views\\Admin\\ManageNews.cshtml",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Admin\\ManageNews.cshtml",
+              "RelativeToolTip": "ThieuDucDungMVC\\Views\\Admin\\ManageNews.cshtml",
+              "ViewState": "AQIAABMAAAAAAAAAAAAkwEUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T19:45:54.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ManageCategory.cshtml",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Admin\\ManageCategory.cshtml",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Views\\Admin\\ManageCategory.cshtml",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Admin\\ManageCategory.cshtml",
+              "RelativeToolTip": "ThieuDucDungMVC\\Views\\Admin\\ManageCategory.cshtml",
+              "ViewState": "AQIAABwAAAAAAAAAAAAkwDEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T19:41:13.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ReportStatistics.cshtml",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Admin\\ReportStatistics.cshtml",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Views\\Admin\\ReportStatistics.cshtml",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Admin\\ReportStatistics.cshtml",
+              "RelativeToolTip": "ThieuDucDungMVC\\Views\\Admin\\ReportStatistics.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T19:39:55.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Admin\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Views\\Admin\\Edit.cshtml",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Admin\\Edit.cshtml",
+              "RelativeToolTip": "ThieuDucDungMVC\\Views\\Admin\\Edit.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T19:03:33.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ManageAccount.cshtml",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Admin\\ManageAccount.cshtml",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Views\\Admin\\ManageAccount.cshtml",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Admin\\ManageAccount.cshtml",
+              "RelativeToolTip": "ThieuDucDungMVC\\Views\\Admin\\ManageAccount.cshtml",
+              "ViewState": "AQIAABQAAAAAAAAAAAAkwEIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T18:32:08.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Admin\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Views\\Admin\\Delete.cshtml",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Admin\\Delete.cshtml",
+              "RelativeToolTip": "ThieuDucDungMVC\\Views\\Admin\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T19:13:23.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Admin\\Create.cshtml",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Views\\Admin\\Create.cshtml",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Admin\\Create.cshtml",
+              "RelativeToolTip": "ThieuDucDungMVC\\Views\\Admin\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T19:03:12.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "ThieuDucDungMVC\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T18:44:53.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "ThieuDucDungMVC\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T18:44:57.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "ThieuDucDungMVC\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T18:08:57.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "ThieuDucDungMVC\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T18:19:58.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "ThieuDucDungMVC\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\SPRING2025-ki7\\prn222\\Assignments\\ASSIGNMENT01\\ThieuDucDung_SE1815_A01\\ThieuDucDungMVC\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "ThieuDucDungMVC\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T18:05:13.203Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
